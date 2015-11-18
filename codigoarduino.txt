@@ -1,0 +1,8 @@
+int valor;
+
+void setup() {
+}
+
+void loop() {
+  valor=analogRead(1);
+}
