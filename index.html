@@ -1,1 +1,42 @@
-Comunicacion Digital
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Proyecto final by camihera333</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Proyecto final</h1>
+        <h2>Comunicación Digital entre Arduino uno y Arduino Mega </h2>
+
+        <section id="downloads">
+          <a href="https://github.com/camihera333/PROYECTO_FINAL/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/camihera333/PROYECTO_FINAL/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/camihera333/PROYECTO_FINAL" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p><strong>### Comunicación Digital por un pin digital desde Arduino Uno a Arduino Mega</strong></p>
+
+<p>Se va a realizar una transmisión de datos digitales ya que en la actualidad son más usados por su efectividad y facilidad de implementación que reduce costos. Dicha transmisión se hará de un Arduino Uno a un arduino Mega, elegidos porque se va a utilizar un sistema basado en microcontroladores con arquitectura AVR de 8 bits, perteneciente a la familia Mega de los microcontroladores de la empresa ATMEL.</p>
+
+<p>La transmisión consiste en varias etapas, la primera es una señal analógica que entra al arduino por el pin analógico 3 y se hace por medio de un potenciómetro, estos datos son capturados y se convierten a digitales, dicho en otras palabras se codifica la fuente, luego se codifica el canal por medio de bloques lineales y se transmiten los datos en grupos de dos bits, en el receptor se hace el proceso inverso, es decir se decodifica el canal por medio del inverso usado en los bloques lineales y se decodifica la fuente con un filtro pasabajo.
+Cabe resaltar que la sincronización y transmisión se dió añadiento bits de ruido e inicio a la trama de datos</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
